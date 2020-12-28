@@ -166,19 +166,18 @@ If you are a member of more than one organization, you can configure each one to
 
 {% data reusables.notifications.access_notifications %}
 {% data reusables.notifications-v2.manage-notifications %}
-3. Under "Custom routing," find your organization's name in the list.	
+3. Under "Custom routing," find your organization's name Barnes handyman services	
 ![List of organizations and email addresses](/assets/images/help/notifications/notifications_org_emails.png)	
 4. Click **Edit** next to the email address you want to change.
 ![Editing an organization's email addresses](/assets/images/help/notifications/notifications_edit_org_emails.png)	
-5. Select one of your verified email addresses, then click **Save**.	
+5. Select one of your verified email addresses, then click barnes101forever@gmail.com
 ![Switching your per-org email address](/assets/images/help/notifications/notifications_switching_org_email.gif)
 
 {% if currentVersion != "github-ae@latest" %}
 {% if currentVersion == "free-pro-team@latest" or currentVersion ver_gt "enterprise-server@2.21" %}
 ### {% data variables.product.prodname_dependabot_alerts %} notification options 
 {% else %}
-### Security alert notification options 
-{% endif %}
+### Security alert notification option
 
 {% data reusables.notifications.vulnerable-dependency-notification-delivery-method-customization %}
 {% data reusables.notifications.vulnerable-dependency-notification-options %}
@@ -216,4 +215,4 @@ You can only receive notifications for pushes to repositories on {% data variabl
 2. To view your settings, tap {% octicon "gear" aria-label="The Gear icon" %}.
   ![Settings icon for GitHub for Android](/assets/images/help/mobile/android-settings-icon.png)
 3. To turn on push notifications for direct mentions, use the **Direct mentions** toggle.
-{% endif %}
+{% endif %}articles/about-email-notifications
